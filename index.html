@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Proyecto PCM Lascano</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Proyecto PCM Lascano</h1>
+  </header>
+
+<nav class="top-menu"> 
+  <div class="menu-buttons">
+    <button onclick="mostrarContenido('quienes')">¿Quiénes somos?</button>
+    <button onclick="mostrarContenido('objetivos')">¿Qué queremos lograr?</button>
+    <button onclick="mostrarContenido('participar')">¿Quieres participar?</button>
+    <button onclick="mostrarContenido('contacto')">Contactos</button>
+    <button class="btn-cuestionario" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSchXX41jroduRzVAr-EcRah3Uqw2EH5oFGrts2gHWFYhGdNvQ/viewform', '_blank')">
+      ¡Si entraste, llená este cuestionario!
+    </button>
+  </div>
+</nav>
+
+
+
+
+  <div class="main-layout">
+    <aside class="side-menu">
+      <button onclick="mostrarContenido('matematica')">Matemátic@</button>
+      <button onclick="mostrarContenido('sabias')">¿Sabías qué?</button>
+      <button onclick="mostrarContenido('memes')">Memes</button>
+      <button onclick="mostrarContenido('desafios')">Desafíos</button>
+    <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScTOyJKY0yWdHVVCn6dLKjfqhDsenjdUFkLkmmSIjWW3RWgLg/viewform?usp=header', '_blank')">
+  ¿Querés colaborar con la página y cartelera?
+</button>
+
+    </aside>
+
+    <main>
+      <section id="quienes" class="contenido">
+        <h2 class="titulo-seccion">¿Quiénes somos?</h2>
+        <p class="texto-seccion">
+         Somos un equipo de Promotores de Cultura Matemática (PCM), una figura recientemente creada dentro del sistema educativo uruguayo, impulsada por la Administración Nacional de Educación Pública (ANEP) en el marco de las transformaciones educativas actuales. Nuestra función nace de una convicción profunda: las matemáticas no son solo una herramienta escolar, sino una forma de pensar, descubrir y entender el mundo que nos rodea.        </p>
+        <p class="texto-seccion">
+        Desde este rol, buscamos generar espacios donde las matemáticas se vivan de forma significativa, promoviendo el juego, la creatividad, la reflexión y el pensamiento crítico. Queremos mostrar que la matemática está presente en los desafíos cotidianos, en la naturaleza, en la tecnología, en el arte, en la economía, en la vida social, y que todos y todas podemos disfrutarla, entenderla y usarla con confianza.
+ </p>
+ <p class="texto-seccion">
+        Nos proponemos derribar barreras que durante mucho tiempo han hecho que muchas personas sientan temor o rechazo hacia esta área del conocimiento. Creemos que todos los estudiantes tienen el derecho a desarrollar una relación sana, activa y enriquecedora con las matemáticas, independientemente de sus trayectorias previas, intereses o habilidades.
+ </p>
+ <p class="texto-seccion">
+        Trabajamos en estrecha colaboración con docentes, estudiantes, equipos de dirección y otras instituciones educativas, proponiendo talleres, actividades abiertas, desafíos, exposiciones, materiales didácticos y espacios de participación en torno a las matemáticas. Nuestra propuesta es flexible, inclusiva y pensada para adaptarse a los contextos y realidades de cada centro educativo.
+    </p>
+ <p class="texto-seccion">
+        Además, nos esforzamos por integrar a la comunidad en este proceso, generando una red de intercambio que valore el conocimiento matemático no solo como contenido académico, sino como una herramienta para la ciudadanía, la resolución de problemas y la construcción de futuro.
+ </p>
+ <p class="texto-seccion">
+         En definitiva, somos facilitadores de experiencias matemáticas distintas, accesibles, humanas y cercanas, que buscan sembrar curiosidad, autonomía y disfrute por aprender.
+</p>
+      </section>
+
+      <section id="objetivos" class="contenido">
+        <h2 class="titulo-seccion">¿Qué queremos lograr?</h2>
+        <p class="texto-seccion">
+          Queremos acercar la matemática a todos los estudiantes como una herramienta útil, poderosa y hermosa. Nos proponemos mostrar su utilidad en la vida cotidiana y su vínculo con otras disciplinas, así como fomentar el pensamiento crítico, lógico y creativo.
+        </p>
+         <p class="texto-seccion">
+         Apoyar a docentes y estudiantes en la implementación de estrategias pedagógicas innovadoras que faciliten el aprendizaje matemático.
+        </p>
+        <p class="texto-seccion">
+       Incorporar la matemática en contextos cotidianos, mostrando su aplicabilidad en situaciones reales.
+        </p>
+   <p class="texto-seccion">
+         Fomentar el interés y la curiosidad por las matemáticas a través de actividades interactivas y desafiantes.
+        </p>
+        <p class="texto-seccion">
+        Promover una cultura matemática inclusiva, donde todos los estudiantes se sientan motivados y capaces de abordar desafíos matemáticos.
+        </p>
+ <p class="texto-seccion">
+      A través de estas acciones, aspiramos a construir una comunidad educativa que valore y disfrute de las matemáticas, reconociéndolas como una herramienta poderosa para comprender y transformar el mundo que nos rodea
+        </p>
+
+        <p class="texto-seccion">
+          Además, buscamos cambiar la percepción negativa hacia esta asignatura, impulsando espacios lúdicos, creativos y colaborativos que despierten la curiosidad, el entusiasmo y el disfrute por el aprendizaje matemático.
+        </p>
+      </section>
+
+      <section id="participar" class="contenido">
+  <h2 class="titulo-seccion">¿Quieres participar?</h2>
+  <p class="texto-grande"><strong>¡Claro que sí!</strong></p>
+  <p class="texto-seccion">
+    ¿Te interesa la matemática, te gusta resolver desafíos o simplemente querés compartir un rato diferente?
+  </p>
+  <p class="texto-seccion">
+    <strong>¡Te invitamos a participar de nuestros talleres abiertos todos los martes de 12:00 a 16:00 en el liceo!</strong>
+  </p>
+  <p class="texto-seccion">
+    No es necesario quedarte todo el horario: podés venir un rato, resolver un desafío, compartir una idea o simplemente charlar de matemáticas.
+  </p>
+  <p class="texto-seccion">
+    El espacio es libre, flexible y pensado para vos. <strong>¡Animate!</strong>
+  </p>
+</section>
+
+      <section id="contacto" class="contenido">
+        <h2 class="titulo-seccion">Contacto</h2>
+        <p class="texto-seccion"><strong>Profesora:</strong> Lucía Cabral</p>
+        <p class="texto-seccion"><strong>Celular:</strong> 092 489 733</p>
+        <p class="texto-seccion"><strong>Email:</strong> matematicas.liceos2025@gmail.com</p>
+        <p class="texto-seccion">También podés encontrarnos personalmente en el liceo durante los talleres o por redes sociales.</p>
+      </section>
+
+      <section id="matematica" class="contenido">
+        <h2 class="titulo-seccion">Matemátic@</h2>
+
+         <div class="persona-mate">
+          <h3 class="nombre-mate">Eleonora Catsigeras</h3>
+          <div class="info-mate">
+            <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/Eleonora1.jpg" alt="Eleonora Catsigeras" class="foto-mate" />
+            <p class="texto-seccion">
+              Eleonora Catsigeras (“Loli”) comenzó sus estudios en la Facultad de Ingeniería, a la que ingresó en 1975 y en la que obtuvo el título de Ingeniera Industrial opción Electrónica en 1981. Luego, ya siendo docente del IMERL, continuó sus estudios de matemática, obteniendo los títulos de Licenciada y Magister en Matemática. Finalmente, obtuvo el grado de Doctora en el IMPA en 1995.
+            </p>
+          </div>
+        </div>
+
+        <div class="persona-mate">
+          <h3 class="nombre-mate">Ernesto Mordecki</h3>
+          <div class="info-mate">
+            <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/Ernesto1.jpg" alt="Ernesto Mordecki" class="foto-mate" />
+            <p class="texto-seccion">
+              Ernesto Mordecki Pupko (Montevideo, 6 de octubre de 1962) es un matemático y profesor uruguayo. Es Profesor en el Centro de Matemática de la Universidad de la República, Uruguay. Es licenciado y magíster en matemática por la Universidad de la República y se doctoró en Matemáticas en 1994 por el Instituto Steklov de Moscú, bajo la supervisión de Albert Shiryaev. Sus intereses de investigación incluyen las paradas óptimas en procesos estocásticos y sus aplicaciones a las finanzas. Durante el período 2000–2001 se desempeñó como director del Centro de Matemática de la Facultad de Ciencias de la Universidad de la República. Ha sido autor de más de 40 artículos en sus campos de interés. En 2015 fue elegido miembro de la Academia de Ciencias del Uruguay. Desde abril de 2020 integra el Grupo Asesor Científico Honorario (GACH) que realiza recomendaciones científicas en las áreas de salud y ciencia de datos a la Presidencia de la República por el COVID-19.
+            </p>
+          </div>
+        </div>
+
+        <div class="persona-mate">
+          <h3 class="nombre-mate">Fernando Paganini</h3>
+          <div class="info-mate">
+            <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/Fernando1.jpg" alt="Fernando Paganini" class="foto-mate" />
+            <p class="texto-seccion">
+              Fernando Paganini es Ingeniero Electricista y Licenciado en Matemática por la Universidad de la República (1990), Máster y PhD (1996) en Ingeniería Eléctrica del California Institute of Technology (Caltech), Estados Unidos. Su tesis doctoral recibió los premios Wilts y Clauser. Fue investigador postdoctoral en Massachusetts Institute of Technology (MIT) (1996-97) y profesor de University of California, Los Angeles (1997-2005). Desde 2005 es catedrático de Teoría de las Telecomunicaciones en la Facultad de Ingeniería y desde 2019 se desempeña como vicedecano de Investigación, cargo que tiene como objetivo principal mejorar la calidad y cantidad de la producción académica de la facultad. Es investigador Nivel III del Sistema Nacional de Investigadores e integró su Comisión Honoraria (2008-2019). Sus publicaciones han recibido los premios O. Hugo Schuck del American Automatic Control Council en 1995, el premio Axelby de la IEEE Control Systems Society en 2004 y el premio Scopus de Elsevier en 2010. Es Packard Fellow (1999) y Fellow del Instituto de Ingeniería Eléctrica y Electrónica (2014). Ha integrado el comité editorial de las revistas IEEE/ACM Transactionson Networking, IEEE Transactions on Automatic Control, IEEE Transactions on Network Science and Engineering. Es miembro de las Academias Nacionales de Ciencias y de Ingeniería, así como de la Academia de Ciencias de América Latina. Desde abril de 2020 integra el Grupo Asesor Científico Honorario (GACH) que realiza recomendaciones científicas en las áreas de salud y ciencia de datos a la Presidencia de la República por el COVID-19.
+            </p>
+          </div>
+        </div>
+
+        <div class="persona-mate">
+          <h3 class="nombre-mate">Hertz Rodríguez</h3>
+          <div class="info-mate">
+            <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/Hertz1.jpg" alt="Hertz Rodríguez" class="foto-mate" />
+            <p class="texto-seccion">
+              Rodríguez Hertz nació el 11 de febrero de 1970 en Rosario, Argentina. Estudió matemáticas en la Facultad de Ciencias Exactas, Ingeniería y Agrimensura de la Universidad Nacional de Rosario, donde obtuvo su licenciatura en 1994. Obtuvo un doctorado de la Universidad de la República en Montevideo en 1999. Fue profesora de la Facultad de Ingeniería de la Universidad de la República, convirtiéndose en la primera y única mujer con un 5º grado en matemáticas en Uruguay. Desde 2016 es profesora de la Universidad de Ciencia y Tecnología del Sur de China.
+            </p>
+          </div>
+        </div>
+
+        <div class="persona-mate">
+          <h3 class="nombre-mate">Soledad Villar</h3>
+          <div class="info-mate">
+            <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/Soledad1.jpg" alt="Soledad Villar" class="foto-mate" />
+            <p class="texto-seccion">
+              Soledad es Profesora Adjunta de Matemáticas Aplicadas y Estadística en la Universidad Johns Hopkins. Es uruguaya y cursó sus estudios de grado en Uruguay (Ingeniería Matemática e Informática) y obtuvo una maestría en Matemáticas en la UDELAR. Obtuvo su doctorado en Matemáticas en la Universidad de Texas en Austin y realizó estancias postdoctorales en la Universidad de California en Berkeley y la Universidad de Nueva York. Su investigación se centra en la intersección de las matemáticas aplicadas y el aprendizaje automático, en particular la teoría matemática del aprendizaje profundo, las redes neuronales de grafos y el aprendizaje automático equivariante.
+            </p>
+          </div>
+        </div>
+      </section>
+
+     <section id="sabias" class="contenido" style="display: none;">
+  <h2 class="titulo-seccion" style="text-align: center; margin-bottom: 2rem; font-size: 2.5rem; color: #4B0082;">¿Sabías qué?</h2>
+
+  <div class="sabia-item">
+    <h3 class="sabia-title" style="color: #FF4500;">¿Sabías que... las matemáticas pueden predecir pandemias?</h3>
+    <p class="sabia-text">Los modelos matemáticos ayudaron a entender cómo se propagaba el COVID‑19 y cómo actuar para frenarlo.</p>
+  </div>
+
+  <div class="sabia-item">
+    <h3 class="sabia-title" style="color: #008080;">¿Sabías que... gracias a las matemáticas podemos hacer videollamadas?</h3>
+    <p class="sabia-text">Las redes de comunicación usan álgebra lineal, teoría de grafos y optimización.</p>
+  </div>
+
+  <div class="sabia-item">
+    <h3 class="sabia-title" style="color: #DC143C;">¿Sabías que... podés usar ecuaciones para ganar en videojuegos?</h3>
+    <p class="sabia-text">La física de los juegos y la inteligencia artificial usan geometría y cálculo para simular movimientos y decisiones.</p>
+  </div>
+
+  <div class="sabia-item">
+    <h3 class="sabia-title" style="color: #2E8B57;">¿Sabías que... una uruguaya investiga cómo piensa el cerebro usando matemáticas?</h3>
+    <p class="sabia-text">Eleonora Catsigeras trabaja en neurodinámica y ganó un premio L’Oréal-UNESCO.</p>
+  </div>
+
+  <div class="sabia-item">
+    <h3 class="sabia-title" style="color: #8B008B;">¿Sabías que... una joven uruguaya enseña matemáticas en Estados Unidos?</h3>
+    <p class="sabia-text">Soledad Villar, de Montevideo, ahora es profesora en Johns Hopkins y trabaja con inteligencia artificial.</p>
+  </div>
+
+  <div class="sabia-item">
+    <h3 class="sabia-title" style="color: #FF8C00;">¿Sabías que... una matemática uruguaya es líder científica en China?</h3>
+    <p class="sabia-text">Jana Rodriguez Hertz trabaja en teoría ergódica y representa a mujeres científicas de América Latina.</p>
+  </div>
+
+  <div class="sabia-item">
+    <h3 class="sabia-title" style="color: #1E90FF;">¿Sabías que... el cero fue inventado en la India?</h3>
+    <p class="sabia-text">Aunque los romanos no lo usaban, el “0” cambió todo en álgebra y cálculo.</p>
+  </div>
+
+  <div class="sabia-item">
+    <h3 class="sabia-title" style="color: #B22222;">¿Sabías que... el número π (pi) nunca termina?</h3>
+    <p class="sabia-text">Es un número irracional y no puede escribirse como fracción exacta. Hasta hoy se conocen ¡más de 62 billones de cifras!</p>
+  </div>
+
+  <div class="sabia-item">
+    <h3 class="sabia-title" style="color: #228B22;">¿Sabías que... hay números que no tienen fin... ni patrón?</h3>
+    <p class="sabia-text">Se llaman números irracionales. Ejemplo: √2 o e.</p>
+  </div>
+
+  <div class="sabia-item">
+    <h3 class="sabia-title" style="color: #FF1493;">¿Sabías que... los algoritmos deciden lo que ves en redes sociales?</h3>
+    <p class="sabia-text">Instagram, TikTok y YouTube usan funciones matemáticas para recomendarte contenido.</p>
+  </div>
+
+  <div class="sabia-item">
+    <h3 class="sabia-title" style="color: #20B2AA;">¿Sabías que... las abejas usan geometría para hacer sus panales?</h3>
+    <p class="sabia-text">Sus celdas hexagonales optimizan espacio y materiales, ¡como buenos matemáticos naturales!</p>
+  </div>
+
+  <div class="sabia-item">
+    <h3 class="sabia-title" style="color: #800080;">¿Sabías que... hay una competencia mundial de matemáticas sin calculadora?</h3>
+    <p class="sabia-text">En la IMO, estudiantes uruguayos han ganado medallas resolviendo problemas de altísimo nivel.</p>
+  </div>
+</section>
+
+     <section id="memes" class="contenido" style="display: none;">
+  <h2 class="titulo-seccion colorido">Memes matemáticos</h2>
+
+  <div class="meme-container">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/+=.png" alt="Meme +=" class="meme-img">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/67.png" alt="Meme 67" class="meme-img">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/89.png" alt="Meme 89" class="meme-img">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/ce.png" alt="Meme ce" class="meme-img">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/unnamed.png" alt="Meme unnamed" class="meme-img">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/gallo.png" alt="Meme gallo" class="meme-img">
+  </div>
+  <!-- BOTÓN DE COLABORACIÓN -->
+  <div class="boton-colabora">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScTOyJKY0yWdHVVCn6dLKjfqhDsenjdUFkLkmmSIjWW3RWgLg/viewform?usp=header" target="_blank">
+      ¿Tienes algún meme que quieras agregar?
+    </a>
+  </div>
+
+</section>
+
+      <section id="desafios" class="contenido" style="display: none;">
+  <h2 class="titulo-seccion">Desafíos Matemáticos 🧠</h2>
+
+    <div class="desafio">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/desafio1.png" alt="Desafío 1">
+    <div class="respuesta">Hay 10 triángulos</div>
+  </div>
+
+  <div class="desafio">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/desafio2.png" alt="Desafío 2">
+    <div class="respuesta">Si llamamos “d” al día de nacimiento y “m” al mes de nacimiento, llegamos a la ecuación 100d +m, la cual combina el día y el mes en un solo número, el día en las centenas y el mes en las unidades</div>
+  </div>
+
+  <div class="desafio">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/desafio3.png" alt="Desafío 3">
+    <div class="respuesta">El hermano es 5 años menor que él, entonces el hermano tiene 45 años actualmente</div>
+  </div>
+
+  <div class="desafio">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/desafio4.png" alt="Desafío 4">
+    <div class="respuesta"></div>
+  </div>
+
+   <div class="desafio">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/desafio5.png" alt="Desafío 5">
+    <div class="respuesta">La distancia recorrida de “A” a las 10 hs es 18 X10, y la distancia recorrida por “B” a las 10 hs es 30X10, entonces, la distancia que los separa a las 10 hs, es la diferencia entre las distancias recorridas por ambos a las 10 hs, que son 120 Km</div>
+  </div>
+
+  <div class="desafio">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/desafio6.png" alt="Desafío 6">
+    <div class="respuesta">”a+b+c” es la constante mágica, y una forma de obtenerla, es sumar todos los valores, en este caso 10+11+12+13+14+15+16+17+18, y luego dividir el valor obtenido entre 3 (cantidad de casillas), ósea, 126/3, por lo que “a+b+c”=42</div>
+  </div>
+
+ <div class="desafio">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/desafio7.png" alt="Desafío 7">
+    <div class="respuesta"><img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/SoluciónDesafio7.png" alt="Desafío 7"></div>
+  <div class="respuesta">El número es 574</div>
+</div>
+
+  <div class="desafio">
+    <img src="https://raw.githubusercontent.com/lucia160292/Matem-ticas2/master/desafio8.png" alt="Desafío 8">
+    <div class="respuesta">Se dividen las perlas en 3 grupos, A= 3 perlas, B=3 perlas y C= 2 perlas, si pesamos A y B, pueden pasar 2 casos, Caso uno que pesen los dos grupos lo mismo, entonces se pesa el grupo C y obtenemos la mas liviana, y el caso 2 que uno de los grupos A o B, sea el más liviano, entonces se toman 2 perlas del grupo mas liviano y se vuelven a pesar, y ahí se observan 2 casos mas, si pesan lo mismo, la que quedó si pesar es la mas liviana, o si no pesan lo mismo, la balanza nos va a marcar cual es la mas liviana.</div>
+  </div>
+
+ <!-- BOTÓN DE COLABORACIÓN -->
+  <div class="boton-colabora">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScTOyJKY0yWdHVVCn6dLKjfqhDsenjdUFkLkmmSIjWW3RWgLg/viewform?usp=header" target="_blank">
+      ¿Tienes algún desafío que quieras agregar?
+    </a>
+  </div>
+</section>
+   
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
